@@ -11,6 +11,7 @@
     justify-self: center;
     width: 70vw;
     max-width: 1000px;
+    font-weight: 500;
     margin: auto;
 }
 .property-listings > button{
@@ -46,6 +47,9 @@
     width: 95%;
     justify-self: center;
     text-indent: 15px;
+}
+.property-card > .container > .head > a{
+    text-decoration: none;
 }
 .property-card .container .contact-button{
     border: solid var(--color2) 2.5px;
@@ -89,7 +93,7 @@
     transition: 0.2s;
 }
 .property-card .property-details:hover{
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
 @media (max-width: 900px){
     .property-listings > p{

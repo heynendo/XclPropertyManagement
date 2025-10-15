@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import getPageWidth from '../functions/getPageWidth'
 
 
@@ -15,7 +15,7 @@ export default function PropertyCard({property}){
             <img className="property-img" src={property.images[0]} />
             <div className="container">
                 <div className="head">
-                    <h3>{property.name}</h3>
+                    <Link to={`${property.name.replace(' ', '')}`}><h3>{property.name}</h3></Link>
                     <button className="contact-button" onClick={() => navigate('/contact/property-inquiry')}>
                         Contact for Availability
                     </button>
@@ -30,9 +30,9 @@ export default function PropertyCard({property}){
             :
             <>
             <div className="head">
-                <img className="property-img" src={propertyImgSrc} />
+                <img className="property-img" src={property.images[0]} />
                 <div className="container">
-                    <h3>{property.name}</h3>
+                    <Link to={`${property.name.replace(' ', '')}`}><h3>{property.name}</h3></Link>
                     <div className="break" />
                     <button className="contact-button" onClick={() => navigate('/contact/property-inquiry')}>
                         Contact for Availability
