@@ -2,44 +2,57 @@
 "RaviniaCove": {
     "name": "Ravinia Cove",
     "address": "153rd Street & Ravinia Avenue",
-    "shortDetails": "Each professional suite in Ravinia Cove is custom-designed to meet the requirements of each tenant.  Private entrances to each suite create a professional image tailored to each business.  Attractive brick buildings and well-landscaped grounds add instant credibility for both your customers and your staff.",
-    "longDetails": "Simplicity rules with these single story buildings set one block off of LaGrange Road at 153rd Street. Conveniently located for easy access and central location, each professional suite in Ravinia Cove is custom-designed to meet the requirements of each tenant.  Private entrances to each suite create a professional image tailored to each business.  Attractive brick buildings and well-landscaped grounds add instant credibility for both your customers and your staff. Ample parking for employees and clients means easier access to your company.  Ravinia Cove Office Center provides a professional backdrop that shows your business as established and trustworthy.  Responsive management and maintenance staff helps you focus your time on running your business instead of maintaining your office.",
+    "shortDetails": "Located just off LaGrange Road at 153rd Street, Ravinia Cove offers single-story professional suites designed for convenience and credibility. Each unit features private entrances, attractive brick architecture, and ample parking. Enjoy a professional environment managed by a responsive team dedicated to your business success.",
+    "longDetails": [
+        "Simplicity rules at Ravinia Cove — a collection of single-story professional buildings located just one block off LaGrange Road at 153rd Street. Each suite is thoughtfully designed to meet the unique needs of your business, offering private entrances that create a strong and professional first impression. The attractive brick buildings and beautifully landscaped grounds project confidence and credibility, both for your clients and your team. Ample parking ensures convenience for everyone, while the central location makes commuting and client visits effortless.",
+        "At Ravinia Cove, responsive management and maintenance allow you to focus on running your business instead of maintaining your office. Whether you're an established company or growing brand, this professional setting provides a backdrop that inspires trust and productivity."
+    ],
     "images": [
         "/images/RaviniaCove/RaviniaCove_1.png",
         "/images/RaviniaCove/RaviniaCove_2.png",
         "/images/RaviniaCove/RaviniaCove_3.png",
-        "/images/RaviniaCove/RaviniaCove_4.png",
         "/images/RaviniaCove/RaviniaCove-Layout.png"
     ]
 },
 "RaviniaWoods": {
     "name": "Ravinia Woods",
     "address": "151st Street & Ravinia Avenue",
-    "shortDetails": "Named Best Office Landscape/Site Design, a 350-foot brook, seven tiers of gently streaming water and waterfalls create peaceful scenery for your employees and your customers. Single story buildings and ample parking means easy access for your clients, with a convenient location at 151st Street & Ravinia Avenue.",
-    "longDetails": "Ravinia Woods Office Center offers a pleasant setting of tranquility with prairie style architecture and beautifully landscaped grounds. Private entrances to each suite provide professional ambience and the ability to design the suite around the needs of each individual tenant. Named Best Office Landscape/Site Design, a 350-foot brook, seven tiers of gently streaming water and waterfalls create peaceful scenery for your employees and your customers. Single story buildings and ample parking means easy access for your clients, with a convenient location at 151st Street & Ravinia Avenue. Responsive Management and maintenance staff makes housing your business at Ravinia Woods simple, affordable and convenient.",
+    "shortDetails": "Found at 151st Street and Ravinia Avenue, Ravinia Woods Office Center features exceptional architecture, private suite entrances, and peaceful landscaped grounds with a flowing stream. The single-story design and ample parking make it an ideal choice for businesses seeking a professional yet serene setting.",
+    "longDetails": [
+        "Ravinia Woods Office Center combines exceptional prairie-style architecture with a tranquil natural environment. Located at 151st Street and Ravinia Avenue, this single-story complex features beautifully landscaped grounds highlighted by a 350-foot brook and gently flowing waterfalls. Private entrances to each suite create a professional image, while the attractive brick design and peaceful surroundings enhance the experience for both clients and employees.",
+        "With ample parking, a convenient location, and responsive management, Ravinia Woods makes operating your business simple and efficient within a calm, professional atmosphere."
+    ],
     "images": [
         "/images/RaviniaWoods/RaviniaWoods_1.png",
         "/images/RaviniaWoods/RaviniaWoods_2.png",
         "/images/RaviniaWoods/RaviniaWoods_3.png",
+        "/images/RaviniaWoods/RaviniaWoods_4.png",
         "/images/RaviniaWoods/RaviniaWoods-Layout.png"
     ]
 },
 "RaviniaPoint": {
     "name": "Ravinia Point",
     "address": "165th Street & LaGrange Road",
-    "shortDetails": "Ravinia Point offers a professional atmosphere with greenery and quiet with these 4 office buildings located right next to the Marcus Theater at 165th & LaGrange Road. A scenic backdrop of wetlands and beautiful landscaping create an inviting backdrop for your business.",
-    "longDetails": "Ravinia Point offers a professional atmosphere with greenery and quiet with these 4 office buildings located right next to the Marcus Theater at 165th & LaGrange Road. A scenic backdrop of wetlands and beautiful landscaping create an inviting backdrop for your business. Attractive prairie style brick buildings and ample parking means easy accessibility and instant credibility with your customers.  Each suite features its own private entrance and spacious entryway, as well as a long list of amenities. Every suite is individually designed around your needs, resulting in a high-quality professional space tailored to showcase your business and impress your customers.",
+    "shortDetails": "Conveniently located at 165th Street and LaGrange Road next to the Marcus Theater, Ravinia Point Office Center features four brick buildings surrounded by scenic wetlands and landscaped grounds. Each suite offers a private entrance, spacious layout, and ample parking — creating a professional and welcoming environment for your business.",
+    "longDetails": [
+        "Ravinia Point Office Center offers a professional setting surrounded by natural beauty. Located at 165th Street and LaGrange Road, adjacent to the Marcus Theater, this four-building complex provides a quiet environment enhanced by wetlands and beautifully landscaped grounds. The attractive prairie-style brick architecture creates a strong first impression, while private suite entrances and spacious entryways offer convenience and privacy for your business.",
+        "With ample parking, easy accessibility, and a scenic backdrop, Ravinia Point delivers a welcoming environment that reflects professionalism and credibility for both clients and staff."
+    ],
     "images": [
         "/images/RaviniaPoint/RaviniaPoint_1.png",
         "/images/RaviniaPoint/RaviniaPoint_2.png",
+        "/images/RaviniaPoint/RaviniaPoint_3.png",
         "/images/RaviniaPoint/RaviniaPoint-Layout.png"
     ]
 },
 "OrlandGrove": {
     "name": "Orland Grove",
     "address": "143rd Street & 108th Avenue",
-    "shortDetails": "Orland Grove has office suites perfect for individual professionals and small businesses, as well as for larger businesses and practices. Each suite is individually designed to meet your requirements, has its own private entrance and ample parking.",
-    "longDetails": "Located at the intersection of 143rd & 108th avenues in Orland Park, Orland Grove offers a serene setting of immaculate grounds and pristine office suites. Attractive period-style architecture with a natural stone waterfall and pond provides peaceful scenery for your employees and your customers. Orland Grove has office suites perfect for individual professionals and small businesses, as well as for larger businesses and practices. Each suite is individually designed to meet your requirements, has its own private entrance and ample parking.  All buildings are single story and were constructed in 2007-2008. Combined with responsive management and professional in-house maintenance staff, housing your business at Orland Grove Office Park creates a pleasant setting for your customers and establishes your business as credible, professional and trustworthy.",
+    "shortDetails": "Located at 143rd Street and 108th Avenue in Orland Park, features single-story professional suites surrounded by pristine landscaping and a natural stone waterfall. With private entrances and ample parking, this property offers a peaceful and professional environment for businesses of all sizes.",
+    "longDetails": [
+        "Located at 143rd Street and 108th Avenue in Orland Park, Orland Grove Office Park offers a peaceful environment surrounded by immaculate landscaping and classic architecture. A natural stone waterfall and pond create a tranquil backdrop that enhances the professional atmosphere for both clients and employees. The single-story buildings, constructed in 2007-2008, feature private suite entrances and ample parking for convenient access. Designed for businesses of all sizes — from individual professionals to larger offices and practices — Orland Grove provides a setting that balances beauty, comfort, and practicality.",
+        "With responsive management and a professional maintenance team, Orland Grove makes operating your business simple and worry-free while projecting credibility and trust."
+    ],
     "images": [
         "/images/OrlandGrove/OrlandGrove_1.png",
         "/images/OrlandGrove/OrlandGrove_2.png",

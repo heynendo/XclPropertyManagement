@@ -76,6 +76,13 @@ button:hover{
 }
 a{
   cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.2s;
+}
+a:hover{
+  color: var(--color2);
 }
 @media (max-width: 600px){
   button{

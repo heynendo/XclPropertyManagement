@@ -45,7 +45,7 @@
 .property > .card > p{
     width: 85%;
     justify-self: center;
-    margin-top: 50px;
+    margin-top: 25px;
 }
 
 
@@ -85,7 +85,7 @@
     align-items: center;
 }
 .property-slideshow > img{
-    width: 60vw;
+    width: 55vw;
     max-width: 1000px;
     box-shadow: 0px 0px 25px 5px rgba(0, 0, 0, 0.25);
 }

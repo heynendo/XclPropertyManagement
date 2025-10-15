@@ -13,6 +13,7 @@
     max-width: 1000px;
     font-weight: 500;
     margin: auto;
+    margin-bottom: 25px;
 }
 .property-listings > button{
     margin: 50px auto;
@@ -47,9 +48,6 @@
     width: 95%;
     justify-self: center;
     text-indent: 15px;
-}
-.property-card > .container > .head > a{
-    text-decoration: none;
 }
 .property-card .container .contact-button{
     border: solid var(--color2) 2.5px;

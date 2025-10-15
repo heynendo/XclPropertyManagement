@@ -17,7 +17,7 @@ export default function PropertyListings(){
         <div className="property-listings">
             <h2>Our Properties</h2>
             <p>
-                XCL Management has designed, built and proudly maintains many different office complexes in Orland Park. We are dedicated to making sure our tenants can focus on their business, and leave all of the maintenance and service aspects of their office to us. XCL is vested in the Orland Park community and serves small and medium sized businesses.
+                XCL Management has designed, built, and proudly maintains a variety of office complexes in Orland Park. We are dedicated to making sure our tenants can focus on their business while we handle your maintenance and service needs. As an active part of the Orland Park community, XCL proudly supports the success of local small and mid-sized businesses.
             </p>
             <p>
                 We invite you to explore each of our properties to learn more. Our team at XCL is always standing by to provide help or answer any of your questions.

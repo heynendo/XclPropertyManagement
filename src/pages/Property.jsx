@@ -29,7 +29,9 @@ export default function Property(){
             <div className='card'>
                 <span>Property Info</span>
                 <div className='break' />
-                <p>{property.longDetails}</p>
+                {property.longDetails.map(details => (
+                    <p className='details'>{details}</p>
+                ))}
             </div>
             <PropertyContact property={property} />
         </div>

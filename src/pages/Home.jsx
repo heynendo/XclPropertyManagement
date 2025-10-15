@@ -2,7 +2,7 @@ import '../styles/home.css'
 import HomeCard from '../components/HomeCard'
 import hereToHelpIcon from '../assets/hereToHelp-icon.png'
 import propertyInterestIcon from '../assets/propertyInterest-icon.png'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import HomeSlideShow from '../components/HomeSlideshow'
 import { scrollToTop } from '../functions/scrollToTop'
 import { useEffect } from 'react'
@@ -27,15 +27,15 @@ function Home(){
             <div className='cards'>
                 <HomeCard title="Here to Help You"
                     body1={<img src={hereToHelpIcon}/>}
-                    body2={<p>As the owners, managers, and maintenance for each of our properties, you can trust the buildings and surroundings at every property will be well taken care of so you can focus on your business needs.</p>}
+                    body2={<p>As the owners, managers, and maintenance team for all our properties, we ensure each building and its surroundings are well maintained, allowing you to focus on your business.</p>}
                 />
                 <HomeCard title="Service & Maintenance"
-                    body1={<p>If you are a current tenant and are looking for support, please click below and fill out a form. We will get back to you within 24-48 hours or less. For emergency requests, please contact us directly at 708-478-7777.</p>}
+                    body1={<p>Current tenants can request support by clicking below to complete a service form. Our team typically responds within 24-48 hours. If there is an emergency, please call us directly at <a href="tel:7084787777">708-478-7777</a></p>}
                     body2={<button onClick={() => navigate('/contact/service-request')}>Request Support</button>}
                 />
                 <HomeCard title="Interested in a Property?"
                     body1={<img src={propertyInterestIcon}/>}
-                    body2={<p>We manage a large variety of offices in the Orland Park area. Check out our Properties page to see if we have what you're looking for.</p>}
+                    body2={<p>We manage a large variety of offices in the Orland Park area. Check out the <Link to='/properties'>Properties</Link> page to see if we have what you're looking for.</p>}
                 />
             </div>
         </div>
