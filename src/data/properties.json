@@ -5,11 +5,11 @@
     "shortDetails": "Each professional suite in Ravinia Cove is custom-designed to meet the requirements of each tenant.  Private entrances to each suite create a professional image tailored to each business.  Attractive brick buildings and well-landscaped grounds add instant credibility for both your customers and your staff.",
     "longDetails": "Simplicity rules with these single story buildings set one block off of LaGrange Road at 153rd Street. Conveniently located for easy access and central location, each professional suite in Ravinia Cove is custom-designed to meet the requirements of each tenant.  Private entrances to each suite create a professional image tailored to each business.  Attractive brick buildings and well-landscaped grounds add instant credibility for both your customers and your staff. Ample parking for employees and clients means easier access to your company.  Ravinia Cove Office Center provides a professional backdrop that shows your business as established and trustworthy.  Responsive management and maintenance staff helps you focus your time on running your business instead of maintaining your office.",
     "images": [
-        "RaviniaCove/RaviniaCove_1.PNG",
-        "RaviniaCove/RaviniaCove_2.PNG",
-        "RaviniaCove/RaviniaCove_3.PNG",
-        "RaviniaCove/RaviniaCove_4.PNG",
-        "RaviniaCove/RaviniaCove-Layout.PNG"
+        "/images/RaviniaCove/RaviniaCove_1.png",
+        "/images/RaviniaCove/RaviniaCove_2.png",
+        "/images/RaviniaCove/RaviniaCove_3.png",
+        "/images/RaviniaCove/RaviniaCove_4.png",
+        "/images/RaviniaCove/RaviniaCove-Layout.png"
     ]
 },
 "RaviniaWoods": {
@@ -18,10 +18,10 @@
     "shortDetails": "Named Best Office Landscape/Site Design, a 350-foot brook, seven tiers of gently streaming water and waterfalls create peaceful scenery for your employees and your customers. Single story buildings and ample parking means easy access for your clients, with a convenient location at 151st Street & Ravinia Avenue.",
     "longDetails": "Ravinia Woods Office Center offers a pleasant setting of tranquility with prairie style architecture and beautifully landscaped grounds. Private entrances to each suite provide professional ambience and the ability to design the suite around the needs of each individual tenant. Named Best Office Landscape/Site Design, a 350-foot brook, seven tiers of gently streaming water and waterfalls create peaceful scenery for your employees and your customers. Single story buildings and ample parking means easy access for your clients, with a convenient location at 151st Street & Ravinia Avenue. Responsive Management and maintenance staff makes housing your business at Ravinia Woods simple, affordable and convenient.",
     "images": [
-        "RaviniaWoods/RaviniaWoods_1.PNG",
-        "RaviniaWoods/RaviniaWoods_2.PNG",
-        "RaviniaWoods/RaviniaWoods_3.PNG",
-        "RaviniaWoods/RaviniaWoods-Layout.PNG"
+        "/images/RaviniaWoods/RaviniaWoods_1.png",
+        "/images/RaviniaWoods/RaviniaWoods_2.png",
+        "/images/RaviniaWoods/RaviniaWoods_3.png",
+        "/images/RaviniaWoods/RaviniaWoods-Layout.png"
     ]
 },
 "RaviniaPoint": {
@@ -30,9 +30,9 @@
     "shortDetails": "Ravinia Point offers a professional atmosphere with greenery and quiet with these 4 office buildings located right next to the Marcus Theater at 165th & LaGrange Road. A scenic backdrop of wetlands and beautiful landscaping create an inviting backdrop for your business.",
     "longDetails": "Ravinia Point offers a professional atmosphere with greenery and quiet with these 4 office buildings located right next to the Marcus Theater at 165th & LaGrange Road. A scenic backdrop of wetlands and beautiful landscaping create an inviting backdrop for your business. Attractive prairie style brick buildings and ample parking means easy accessibility and instant credibility with your customers.  Each suite features its own private entrance and spacious entryway, as well as a long list of amenities. Every suite is individually designed around your needs, resulting in a high-quality professional space tailored to showcase your business and impress your customers.",
     "images": [
-        "RaviniaPoint/RaviniaPoint_1.PNG",
-        "RaviniaPoint/RaviniaPoint_2.PNG",
-        "RaviniaPoint/RaviniaPoint-Layout.PNG"
+        "/images/RaviniaPoint/RaviniaPoint_1.png",
+        "/images/RaviniaPoint/RaviniaPoint_2.png",
+        "/images/RaviniaPoint/RaviniaPoint-Layout.png"
     ]
 },
 "OrlandGrove": {
@@ -41,11 +41,11 @@
     "shortDetails": "Orland Grove has office suites perfect for individual professionals and small businesses, as well as for larger businesses and practices. Each suite is individually designed to meet your requirements, has its own private entrance and ample parking.",
     "longDetails": "Located at the intersection of 143rd & 108th avenues in Orland Park, Orland Grove offers a serene setting of immaculate grounds and pristine office suites. Attractive period-style architecture with a natural stone waterfall and pond provides peaceful scenery for your employees and your customers. Orland Grove has office suites perfect for individual professionals and small businesses, as well as for larger businesses and practices. Each suite is individually designed to meet your requirements, has its own private entrance and ample parking.  All buildings are single story and were constructed in 2007-2008. Combined with responsive management and professional in-house maintenance staff, housing your business at Orland Grove Office Park creates a pleasant setting for your customers and establishes your business as credible, professional and trustworthy.",
     "images": [
-        "OrlandGrove/OrlandGrove_1.PNG",
-        "OrlandGrove/OrlandGrove_2.PNG",
-        "OrlandGrove/OrlandGrove_3.PNG",
-        "OrlandGrove/OrlandGrove_4.PNG",
-        "OrlandGrove/OrlandGrove-Layout.PNG"
+        "/images/OrlandGrove/OrlandGrove_1.png",
+        "/images/OrlandGrove/OrlandGrove_2.png",
+        "/images/OrlandGrove/OrlandGrove_3.png",
+        "/images/OrlandGrove/OrlandGrove_4.png",
+        "/images/OrlandGrove/OrlandGrove-Layout.png"
     ]
 }
 }

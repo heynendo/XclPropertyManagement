@@ -6,10 +6,10 @@ import PlayIcon from './Icons/PlayIcon'
 import { useNavigate } from 'react-router-dom'
 
 const images = [
-    'src/assets/properties/OrlandGrove/OrlandGrove_1.PNG',
-    'src/assets/properties/RaviniaCove/RaviniaCove_1.PNG',
-    'src/assets/properties/RaviniaPoint/RaviniaPoint_1.PNG',
-    'src/assets/properties/RaviniaWoods/RaviniaWoods_1.PNG'
+    '/images/OrlandGrove/OrlandGrove_1.png',
+    '/images/RaviniaCove/RaviniaCove_1.png',
+    '/images/RaviniaPoint/RaviniaPoint_1.png',
+    '/images/RaviniaWoods/RaviniaWoods_1.png'
 ]
 
 export default function HomeSlideShow(){

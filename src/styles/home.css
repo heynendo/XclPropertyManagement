@@ -44,7 +44,7 @@
 .home > .heading > .text{
     width: 100%;
     background-color: var(--color3);
-    z-index: 5;
+    z-index: 1;
 }
 .home .cards{
     margin: 75px auto;

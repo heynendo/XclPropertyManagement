@@ -156,7 +156,7 @@ function Header(){
                                 <div className="break" />
                             </Fragment>
                             ))}
-                            <Link className="sub-link" to='/properties'> 
+                            <Link className="sub-link" to='/properties/map'> 
                                 Property Map
                             </Link>
                             <div className="break" />

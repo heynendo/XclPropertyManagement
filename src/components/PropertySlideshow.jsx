@@ -11,7 +11,7 @@ export default function PropertySlideshow({property}){
     const nextIndex = (imageIndex + 1) % property.images.length
 
     const propertyImages = property.images.map((image, index) => (
-        <img src={`/src/assets/properties/${image}`} onClick={() => {
+        <img src={image} onClick={() => {
             if (index === prevIndex ) updateImage(-1)
             else if (index === nextIndex) updateImage(1)
         }}/>

@@ -4,8 +4,7 @@ import getPageWidth from '../functions/getPageWidth'
 
 export default function PropertyCard({property}){
 
-    const navigate = useNavigate()
-    const propertyImgSrc = `/src/assets/properties/${property.images[0]}` 
+    const navigate = useNavigate() 
 
     const width = getPageWidth()
 
@@ -13,7 +12,7 @@ export default function PropertyCard({property}){
         <div className="property-card">
             {width > 900 ? 
             <>
-            <img className="property-img" src={propertyImgSrc} />
+            <img className="property-img" src={property.images[0]} />
             <div className="container">
                 <div className="head">
                     <h3>{property.name}</h3>
