@@ -1,0 +1,283 @@
+.contact{
+    min-height: 90vh;
+}
+.contact > h2{
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    margin: 0;
+}
+.contact > p{
+    justify-self: center;
+    align-content: center;
+    width: 50vw;
+    max-width: 1000px;
+    min-height: 150px;
+    margin: auto;
+    margin-top: 0;
+}
+.contact p > a{
+    text-decoration: none;
+    font-weight: 596;
+    color: white;
+    transition: 0.2s;
+}
+.contact p > a:hover{
+    color: var(--color2);
+}
+.contact > .options{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 1000px;
+}
+.contact .options > .break{
+    width: 2px;
+    height: 225px;
+    background-color: var(--color2);
+    margin: 0 100px;
+}
+@media (min-width: 1600px){
+    .contact .options > .break{
+        margin: 0 100px;
+    }
+}
+.contact .options > .contact-card{
+    background-color: var(--color1-50);
+    height: 350px;
+    width: 350px;
+    transition: 0.2s;
+    opacity: 0.8;
+    border: 1px solid rgba(24, 48, 78, 0);
+    margin: auto;
+}
+.contact .options > .contact-card:hover{
+    opacity: 1;
+    border: 1px solid rgba(24, 48, 78, 0.25);
+    box-shadow: 0px 0px 5px 1px rgba(42, 83, 137, 0.25);
+}
+
+.contact-card h3{
+    font-weight: 600;
+    min-height: 75px;
+}
+.contact-card button{
+    margin: 50px auto;
+}
+.contact-card p{
+    padding: 0 25px;
+}
+.contact-form{
+    min-height: 90vh;
+}
+.contact-form > .head{
+    display: flex;
+    justify-content: start;
+    width: 100vw;
+    max-width: 1400px;
+    justify-self: center;
+    align-content: center;
+    margin-top: 25px;
+}
+.contact-form > .head > h2{
+    margin: 0;
+    align-content: center;
+    min-height: 50px;
+}
+.contact-form > .head > button{
+    margin: 0 25px;
+}
+.contact-form form{
+    justify-self: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 1400px;
+    margin: 50px auto;
+    margin-top: 75px;
+    background-color: var(--color1-50);
+    padding: 25px 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.contact-form form > div{
+    width: 50%;
+    min-height: 65px;
+    display: flex;
+    justify-content: start;
+    justify-self: center;
+    align-items: start;
+}
+.contact-form form > div.message{
+    width: 100%;
+}
+.contact-form form > button{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 40%;
+    transition: 0.2s;
+    margin: 40px auto;
+    margin-bottom: 15px;
+    border: solid rgba(0, 0, 0, 0) 2px;
+}
+.contact-form form > button:hover{
+    background-color: white;
+}
+.contact-form form > button:focus{
+    outline: none;
+    border: solid rgba(0, 0, 0, 1) 2px;
+}
+.contact-form form input{
+    margin: 7.5px;
+    height: 35px;
+    background: var(--color3-50);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    text-indent: 5px;
+    font-family: 'Author';
+    font-style: normal;
+    font-size: 1em;
+    transition: 0.2s;
+    border: solid rgba(255, 255, 255, 0) 2px;
+}
+.contact-form form input:focus{
+    outline: none;
+    border: solid rgba(255, 255, 255, 0.25) 2px;
+}
+.contact-form form select{
+    margin: 7.5px;
+    height: 35px;
+    background: var(--color3-50);
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: white;
+    text-indent: 5px;
+    font-family: 'Author';
+    font-style: normal;
+    font-size: 1em;
+    transition: 0.2s;
+    border: solid rgba(255, 255, 255, 0) 2px;
+}
+.contact-form form select:focus{
+    outline: none;
+    border: solid rgba(255, 255, 255, 0.25) 2px;
+}
+.contact-form form option{
+    background-color: var(--color3);
+    color: white;
+}
+.contact-form form label{
+    display: block;
+    height: 50px;
+    min-width: 100px;
+    align-content: center;
+    font-family: 'Author';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2em;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+.contact-form form textarea{
+    background: var(--color3-50);
+    border: none;
+    border-radius: 10px;
+    margin: 7.5px;
+    width: 100%;
+    min-height: 200px;
+    color: white;
+    padding: 10px 5px;
+    font-family: 'Author';
+    font-style: normal;
+    font-size: 1em;
+    resize: none;
+    transition: 0.2s;
+    border: solid rgba(255, 255, 255, 0) 2px;
+}
+.contact-form form textarea:focus{
+    outline: none;
+    border: solid rgba(255, 255, 255, 0.25) 2px;
+}
+
+@media (max-width: 900px){
+    .contact > p{
+        width: 95vw;
+        min-height: 150px;
+    }
+    .contact .options > .break{
+        margin: 5vh auto;
+        height: 2px;
+        width: 70vw;
+    }
+    .contact > .options{
+        display: block;
+        justify-self: center;
+        justify-items: center;
+    }
+    .contact .options > .contact-card{
+        width: 95vw;
+        min-height: 125px;
+        height: auto;
+    }
+    .contact-card h3{
+        min-height: 25px;
+    }
+    .contact-card > div{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        width: 95%;
+        justify-self: center;
+    }
+    .contact-card button{
+        margin: 20px auto;
+        padding: 0 10px;
+        display: flex;
+    }
+    .contact-card button > img{
+        rotate: 180deg;
+        scale: 0.75;
+        margin-left: 10px;
+    }
+    .contact-card p{
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 600px){
+    .contact > h2{
+        height: 50px;
+    }
+    .contact .options > .break{
+        margin: 2.5vh auto;
+    }
+    .contact-form form{
+        display: block;
+    }
+    .contact-form form > div{
+        width: 100%;
+    }
+
+    .contact-form > .head{
+        margin-top: 25px;
+        width: 95vw;
+    }
+    .contact-form > .head > h2{
+        margin: 0;
+        align-content: center;
+    }
+    .contact-form > .head > button{
+        padding: 0 15px;
+    }
+    .contact-form > form{
+        margin-top: 50px;
+    }
+}

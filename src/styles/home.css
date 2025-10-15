@@ -1,0 +1,134 @@
+.home{
+    min-height: 90vh;
+    width: 100vw;
+    max-width: 1800px;
+    justify-self: end;
+}
+.home > .heading{
+    display: flex;
+    justify-content: end;
+}
+.home .heading h1{
+    min-height: 330px;
+    align-content: center;
+    justify-self: end;
+    padding: 0 25px;
+    margin: 0;
+    max-width: 1000px;
+}
+.home .heading span{
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-style: italic;
+    font-weight: 375;
+    font-size: 1.5em;
+    line-height: 31px;
+    align-content: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: white;
+    text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    background-color: rgba(217, 128, 27, .25);
+    max-width: 1100px;
+    justify-self: end;
+}
+@media (min-width: 1600px){
+    .home .heading h1{
+        min-height: 430px;
+    }
+    .home .heading span{
+        background: linear-gradient(90deg, rgba(217, 128, 27, 0) 0%, rgba(217, 128, 27, 0.25) 15%);
+    }
+}
+.home > .heading > .text{
+    width: 100%;
+    background-color: var(--color3);
+    z-index: 5;
+}
+.home .cards{
+    margin: 75px auto;
+    margin-bottom: 0;
+    display: flex;
+    justify-self: center;
+    width: 90%;
+    max-width: 1200px;
+    gap: 25px;
+}
+.home .home-card{
+    align-self: center;
+    width: 500px;
+    height: 450px;
+    background-color: var(--color1-50);
+}
+.home .home-card .title{
+    height: 80px;
+}
+.home .home-card img{
+    display: block;
+    justify-self: center;
+    aspect-ratio: auto;
+    height: 125px;
+    margin: 25px auto;
+}
+.home .home-card p{
+    height: 150px;
+    padding: 0 25px;
+    align-content: center;
+}
+.home .home-card .body2 p{
+    align-content: start;
+}
+.home .home-card button{
+    margin: 50px auto;
+}
+
+@media (max-width: 1000px){
+    .home > .heading{
+        display: block;
+    }
+    .home .heading .text{
+        width: 100vw;
+        min-width: 0;
+        max-width: default;
+        margin-bottom: 25px;
+    }
+    .home .heading h1{
+        min-height: 250px;
+    }
+    .home .cards{
+        flex-direction: column;
+        margin: 50px auto;
+    }
+    .home .cards .home-card{
+        width: 85vw;
+        height: auto;
+        min-height: 225px;
+    }
+
+    .home .home-card .title{
+        height: 50px;
+    }
+    .home .home-card img{
+        display: block;
+        justify-self: center;
+        aspect-ratio: auto;
+        height: 100px;
+        margin: 25px auto;
+    }
+    .home .home-card p{
+        height: auto;
+        min-height: 75px;
+        padding: 0 25px;
+        align-content: center;
+    }
+}
+@media (max-width: 600px){
+    .home .heading h1{
+        min-height: 150px;
+    }
+    .home .heading span{
+        height: 40px;
+        font-size: 1.2em;
+    }
+}
