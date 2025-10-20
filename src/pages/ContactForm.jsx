@@ -5,22 +5,20 @@ import { scrollToTop } from "../functions/scrollToTop"
 
 export default function ContactForm({option}){
 
-    const [error, setError] = useState({
+    const API_URL = import.meta.env.DEV
+        ? "http://localhost:8787/" // localhost dev
+        : "https://emailserver-resend.heynen-donovan.workers.dev/"
+
+    const defaultErrors = {
         name: false,
         email: false,
         phone: false,
         property: false,
         message: false
-    })
-    //FIXME: add a state variable to optionally set the property on load
-
-    useEffect(() => {
-        scrollToTop()
-    })
-
-    const navigate = useNavigate()
+    }
 
     const defaultInputs = {
+        site: 'xclproperties',
         name: '',
         email: '',
         phone: '',
@@ -29,7 +27,15 @@ export default function ContactForm({option}){
         business: '',
         message: ''
     }
+    const [error, setError] = useState(defaultErrors)
     const [userInput, setUserInput] = useState(defaultInputs)
+    //FIXME: add a state variable to optionally set the property on load
+
+    useEffect(() => {
+        scrollToTop()
+    })
+
+    const navigate = useNavigate()
 
     function updateInputs(e) {
         const { name, value } = e.target
@@ -54,9 +60,52 @@ export default function ContactForm({option}){
             [name]: formattedValue
         }))
     }
-    function submitForm(e){
+
+    async function submitForm(e) {
         e.preventDefault()
-        alert("email setup in process..")
+
+        const newError = {
+            name: userInput.name.trim().length < 2,
+            email: !/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/.test(userInput.email),
+            phone: (() => {
+            const phoneDigits = userInput.phone.replace(/\D/g, "")
+            const formattedCorrectly = /^\d{3}-\d{3}-\d{4}$/.test(userInput.phone)
+            const isValidRange = !/^0+$/.test(phoneDigits) && phoneDigits.length === 10
+            return !(formattedCorrectly && isValidRange)
+            })(),
+            property: !userInput.property,
+            message: userInput.message.trim().length < 10,
+        }
+
+        setError(newError)
+
+        const hasError = Object.values(newError).some(Boolean)
+        if (hasError) {
+            alert('Please correct the highlighted fields.')
+            return
+        }else {
+            setError(defaultErrors)
+            try {
+                const res = await fetch(API_URL, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify(userInput),
+                });
+
+                if (!res.ok) {
+                    const text = await res.text()
+                    throw new Error(`Server error: ${text}`)
+                }
+
+                alert("Your message has been sent successfully!")
+                setUserInput(defaultInputs);
+            } catch (err) {
+                console.error(err)
+                alert("There was a problem sending your message. Please try again later.")
+            }
+        }
     }
 
     const title = option === 'support' ? "Service & Maintenance Request" : "Request Information"
@@ -106,7 +155,13 @@ export default function ContactForm({option}){
                 </div>
                 <div className={`property ${error.property ? 'error' : ''}`}>
                     <label htmlFor="property">Property</label>
-                    <select id="property">
+                    <select 
+                        id="property"
+                        name="property"
+                        value={userInput.property}
+                        onChange={updateInputs}
+                        required
+                    >
                         <option value="">
                             Select a Property
                         </option>

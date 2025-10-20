@@ -167,6 +167,9 @@
     transition: 0.2s;
     border: solid rgba(255, 255, 255, 0) 2px;
 }
+.contact-form form .error > select{
+    border: solid rgba(190, 14, 14, 0.75) 1.5px;
+}
 .contact-form form select:focus{
     outline: none;
     border: solid rgba(255, 255, 255, 0.25) 2px;
@@ -205,11 +208,13 @@
     transition: 0.2s;
     border: solid rgba(255, 255, 255, 0) 2px;
 }
+.contact-form form .error > textarea{
+    border: solid rgba(190, 14, 14, 0.75) 1.5px;
+}
 .contact-form form textarea:focus{
     outline: none;
     border: solid rgba(255, 255, 255, 0.25) 2px;
 }
-
 @media (max-width: 900px){
     .contact > p{
         width: 95vw;
