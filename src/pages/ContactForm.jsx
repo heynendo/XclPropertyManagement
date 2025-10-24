@@ -19,6 +19,7 @@ export default function ContactForm({option}){
 
     const defaultInputs = {
         site: 'xcl-property',
+        type: option === 'support' ? "Service & Maintenance Request" : "Property Inquiry",
         name: '',
         email: '',
         phone: '',
