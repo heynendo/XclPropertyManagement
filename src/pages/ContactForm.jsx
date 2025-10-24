@@ -18,7 +18,7 @@ export default function ContactForm({option}){
     }
 
     const defaultInputs = {
-        site: 'xclproperties',
+        site: 'xcl-property',
         name: '',
         email: '',
         phone: '',
@@ -85,6 +85,7 @@ export default function ContactForm({option}){
             return
         }else {
             setError(defaultErrors)
+            console.log(userInput)
             try {
                 const res = await fetch(API_URL, {
                     method: "POST",
@@ -92,15 +93,15 @@ export default function ContactForm({option}){
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify(userInput),
-                });
-
-                if (!res.ok) {
-                    const text = await res.text()
-                    throw new Error(`Server error: ${text}`)
+                })
+                if (res.ok) {
+                    console.log("Form submitted:", userInput)
+                    alert("Message sent.")
+                    setUserInput(defaultInputs)
+                } else {
+                    console.error("Failed to send message:", await res.text())
+                    alert("Failed to send message")
                 }
-
-                alert("Your message has been sent successfully!")
-                setUserInput(defaultInputs);
             } catch (err) {
                 console.error(err)
                 alert("There was a problem sending your message. Please try again later.")
